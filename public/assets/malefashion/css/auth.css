@@ -1,0 +1,119 @@
+/* public/assets/malefashion/css/auth.css */
+
+/* Breadcrumb Section */
+.breadcrumb-option {
+    background: #f3f2ee;
+    padding: 40px 0;
+    margin-bottom: 50px;
+}
+.breadcrumb__text h4 {
+    color: #111111;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+.breadcrumb__links span {
+    color: #b7b7b7;
+    font-size: 15px;
+    display: inline-block;
+}
+
+/* Auth Section */
+.auth-section {
+    padding-bottom: 80px;
+    background: #fff;
+}
+
+.auth-card {
+    background: #ffffff;
+    max-width: 500px; /* Giới hạn chiều rộng */
+    margin: 0 auto;
+    padding: 40px;
+    border: 1px solid #e1e1e1;
+    /* Style Malefashion thường dùng góc vuông hoặc bo rất nhẹ */
+    border-radius: 0px; 
+    box-shadow: 0 5px 15px rgba(0,0,0,0.03);
+}
+
+.auth-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #111111;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-size: 14px;
+    color: #111111;
+    margin-bottom: 10px;
+    display: block;
+    font-weight: 600;
+}
+
+.form-control {
+    height: 50px;
+    border: 1px solid #e1e1e1;
+    border-radius: 0px; /* Vuông vức */
+    padding-left: 20px;
+    font-size: 14px;
+    color: #111111;
+    transition: all 0.3s;
+}
+
+.form-control:focus {
+    border-color: #111; /* Focus màu đen */
+    box-shadow: none;
+}
+
+/* Nút bấm theo style Malefashion */
+.site-btn {
+    font-size: 14px;
+    color: #ffffff;
+    background: #111111;
+    font-weight: 700;
+    border: none;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 14px 30px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    width: 100%;
+    transition: all 0.3s;
+    border-radius: 0;
+}
+
+.site-btn:hover {
+    background: #e53637; /* Màu đỏ đặc trưng của Malefashion */
+    color: #fff;
+}
+
+.auth-alt {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #111;
+}
+
+.auth-alt a {
+    color: #e53637;
+    font-weight: 600;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: all 0.3s;
+}
+
+.auth-alt a:hover {
+    border-bottom: 2px solid #e53637;
+}
+
+/* Custom Alert */
+.alert {
+    border-radius: 0;
+    font-size: 14px;
+}
